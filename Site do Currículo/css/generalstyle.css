@@ -1,0 +1,28 @@
+body{
+    font-family: Garamond;
+    background-color: #4c4c97;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(96, 126, 96);
+}
+#titulo{
+    font-size: 100px; 
+    text-align: center;
+}
+#menu{
+    font-weight: bold; 
+    font-size: 25px; 
+}
+.inicio{
+    width: 100%;
+}
+.inicio img{
+    width:100px; 
+    height:100px;
+    margin-left: 75px; 
+    margin-right: -70px;
+}

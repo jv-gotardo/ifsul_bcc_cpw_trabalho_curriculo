@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo Online</title>
+    <link rel="icon" type="image/x-icon" href="../img/curriculum.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/generalstyle.css">
+    <link rel="stylesheet" href="../css/subpaginasstyle.css">
+</head>
+<body onload="exibirInfo(event, 'dados_cadastrais')">
+    <table class="inicio">
+        <tr>
+            <td><img src="../img/meucurriculoonline.png"></td>
+            <td><h1 id="titulo">meu currículo online</h1></td>
+        </tr>
+    </table>
+    <ul class="nav justify-content-center nav-tabs" id="menu">
+        <li><a class="nav-link" href="../home.html">Início</a></li>
+        <li><a class="nav-link active" href="curriculo.html#dados_cadastrais">Exemplo de Currículo</a></li>
+        <li><a class="nav-link" href="formulario.html">Envie seu Currículo</a></li>
+        <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+    </ul><br>
+
+    <div class="menu2">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#dados_cadastrais" onclick="exibirInfo(event, 'dados_cadastrais')">DADOS CADASTRAIS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#formacao" onclick="exibirInfo(event, 'formacao')">FORMAÇÃO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#expprof" onclick="exibirInfo(event, 'expprof')">EXPERIÊNCIA PROFISSIONAL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cursosc" onclick="exibirInfo(event, 'cursosc')">CURSOS COMPLEMENTARES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#idiomas" onclick="exibirInfo(event, 'idiomas')">IDIOMAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#softskills" onclick="exibirInfo(event, 'softskills')">SOFT SKILLS/OUTRAS HABILIDADES</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="dados_cadastrais" class="menu">
+        <table>
+            <tr>
+                <td><img src="../img/perfil.jpeg" alt="perfil"></td>
+                <td style="padding-left: 30px;">
+                    <p><span>Nome Completo: </span> Lucas Heitor Rodrigues</p>
+                    <p><span>Data de Nascimento:</span> 05/02/1998</p>
+                    <p><span>Endereço: </span>R. Bahia, 500, B. Santa Maria, <br>Passo Fundo-RS</p>
+                    <p><span>Linkedin: </span><a href="https://www.linkedin.com/in/lucasheitorrodrigues/">Lucas Heitor Rodrigues</a></p>
+                </td>
+            </tr>
+        </table>
+    </div> 
+    
+    <div id="formacao" class="menu">
+        <div id="formacaofloat">
+        <ul>
+           <li>
+                <p><span>CIÊNCIA DE DADOS</span></p>
+                <p><span>Instituição:</span> USP</p>
+                <p><span>Formação:</span> MBA</p>
+                <p><span>Carga Horária:</span> 385h</p>
+            </li></ul></div>
+        <div id="formacaofloat">
+        <ul> 
+            <li>
+                <p style="text-align: center;"><span>CIÊNCIA DA COMPUTAÇÃO</span></p>
+                <p><span>Instituição:</span> IFSUL</p>
+                <p><span>Formação:</span> Bacharelado</p>
+                <p><span>Carga Horária:</span> 3200h</p>
+            </li>
+        </ul></div>
+    </div>
+
+    <div id="expprof" class="menu">
+        <div id="expfloat">
+            <ul>
+                <li>
+                    <p><span>ENGENHEIRO DE DADOS</span></p>
+                    <p><span>Empresa:</span> ClickTech Ltda.</p>
+                    <p><span>Período:</span> 2023-atualmente</p>
+                </li>
+                <li>
+                    <p><span>DESENVOLVEDOR BACK-END</span></p>
+                    <p><span>Empresa:</span> ClickTech Ltda.</p>
+                    <p><span>Período:</span> 2021-2023</p>
+                </li></ul> 
+        </div>
+        <div id="expfloat">
+        <ul>
+            <li>
+                <p><span>DESENVOLVEDOR BACK-END</span></p>
+                <p><span>Empresa:</span> TecnoWeb</p>
+                <p><span>Período:</span> 2017-2021</p>
+            </li>
+            <li>
+                <p><span>ESTAGIÁRIO BACK-END</span></p>
+                <p><span>Empresa:</span> TecnoWeb</p>
+                <p><span>Período:</span> 2017</p>
+            </li>
+         </ul>
+        </div>
+    </div>
+
+    <div id="cursosc" class="menu">
+        <ol>
+            <li>
+                 <p><span>MACHINE LEARNING</span></p>
+                 <p><span>Instituição:</span> Alura</p>
+                 <p><span>Formato:</span> EaD</p>
+                 <p><span>Carga Horária:</span> 76h</p>
+             </li>
+             <li>
+                <p><span>PROGRAMAÇÃO WEB COM JAVA</span></p>
+                <p><span>Instituição:</span> Udemy</p>
+                <p><span>Formato:</span> EaD</p>
+                <p><span>Carga Horária:</span> 54h</p>
+            </li>
+        </ol>
+    </div>
+
+    <div id="idiomas" class="menu">
+        <ol>
+            <li>
+                 <p><span>INGLÊS</span></p>
+                 <p><span>Instituição:</span> CCAA</p>
+                 <p><span>Nível:</span> C1</p>
+                 <p><span>Carga Horária:</span> 200h</p>
+             </li>
+        </ol>
+    </div>
+
+    <div id="softskills" class="menu">
+    <ol>
+        <li>
+            <p><span>Proatividade</span></p>
+        </li>
+        <li>
+            <p><span>Trabalho em Equipe</span></p>
+        </li>
+        <li>
+            <p><span>Criatividade</span></p>
+        </li>
+        <li>
+            <p><span>Networking</span></p>
+        </li>
+    </ol>
+    </div>
+
+    <script>
+        function exibirInfo(ev, aba) {
+            var i, navitem, menu, av;
+            menu = document.getElementsByClassName("menu");
+            for(i = 0; i < menu.length; i++){
+                menu[i].style.display="none";
+            }
+            navitem = document.getElementsByClassName("nav-item");
+            for(i = 0; i < navitem.length; i++){
+                navitem[i].className = navitem[i].className.replace(" active", "");
+            }
+            document.getElementById(aba).style.display = "block";
+            ev.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>

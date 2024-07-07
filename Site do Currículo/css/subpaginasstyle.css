@@ -1,0 +1,60 @@
+.formacoes{
+    float: left;
+    margin-right: 105px;
+}
+.menu{ /*Utilizado como box-model*/
+    float: left;
+    margin-left: 18%;
+    margin-right: 15%;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 5px;
+}
+.menu2{
+    float: left;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.lista{
+    margin-left: 3%;
+    font-size: 15px;
+    float: left;
+}
+.labels{
+    float: left;
+    margin-left: 6%;
+    margin-right: 1.5%;
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5px;
+    width: 450px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#curriculo{
+    position: absolute;
+}
+span{
+    font-weight: bold;
+}
+#dados_cadastrais img{
+    width: 300px;
+    height: 300px;
+} 
+.abas{
+    font-size: 100px;
+}
+#formacaofloat{
+    float: left;
+}
+#expfloat{
+    float: left;
+}
+#ccfloat{
+    float: left;
+    margin-right: 20px;    
+}
